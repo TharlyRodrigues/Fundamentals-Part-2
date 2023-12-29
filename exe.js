@@ -16,7 +16,7 @@ Ignore os empates desta vez. Em vez disso, faça login No team wins...no console
 
 DADOS DE TESTE 1 : Golfinhos pontuaram 44, 23 e 71. Coalas pontuaram 65, 54 e 49.
 
-DADOS DE TESTE 2 : Golfinhos pontuaram 85, 54 e 41. Coalas pontuaram 23, 34 e 27.*/
+DADOS DE TESTE 2 : Golfinhos pontuaram 85, 54 e 41. Coalas pontuaram 23, 34 e 27.
 
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 console.log(calcAverage(3, 4, 5));
@@ -43,4 +43,4 @@ checkWinner(576, 115);
 scoreDolphins = calcAverage(85, 54, 41);
 scoreKoalas = calcAverage(23, 34, 27);
 console.log(scoreDolphins, scoreKoalas);
-checkWinner(scoreDolphins, scoreKoalas);
+checkWinner(scoreDolphins, scoreKoalas);*/
