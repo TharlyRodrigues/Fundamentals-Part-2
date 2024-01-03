@@ -177,4 +177,63 @@ console.log(friends.includes(23));
 
 if (friends.includes("steven")) {
   console.log("you have a friend called Peter");
-}*/
+}
+
+// array
+
+const jonasArray = [
+  "jonas",
+  "schmedtmann",
+  2037 - 1991,
+  ["michael", "peter", "steven"],
+];
+
+// console.log(jonasArray);
+
+// objector
+const jonas = {
+  firstName: "jonas",
+  lastName: "schmedtmann",
+  age: 2037 - 1991,
+  job: "teacher",
+  friends: ["michael", "peter", "steven"],
+};
+
+console.log(jonas);*/
+
+// objector
+const jonas = {
+  firstName: "jonas",
+  lastName: "schmedtmann",
+  age: 2037 - 1991,
+  job: "teacher",
+  friends: ["michael", "peter", "steven"],
+};
+
+console.log(jonas);
+console.log(jonas.lastName);
+console.log(jonas["lastName"]);
+
+const nameKey = "Name";
+console.log(jonas["first" + nameKey]);
+console.log(jonas["last" + nameKey]);
+
+const interestedIn = prompt(
+  "what do you want to  know about Jonas? choose between firstName, lastName, age, job, and friends"
+);
+
+if (jonas[interestedIn]) {
+  console.log(jonas[interestedIn]);
+} else {
+  console.log(
+    "wrong request!choose between firstName, lastName, age, job, and friends "
+  );
+}
+
+jonas.location = "Portugal";
+jonas["twitter"] = "@jonasschmedtman";
+console.log(jonas);
+
+console.log(
+  `${jonas.firstName} has ${jonas.friends.length}, and his best friend is called ${jonas.friends[0]}`
+);
