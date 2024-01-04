@@ -276,4 +276,11 @@ console.log(jonas.age);
 
 //challenge
 // jonas is a 46-year old teacher, and he has a driver's license
-console.log(jonas.getSummary());*/
+console.log(jonas.getSummary());
+
+// for loop keeps running while condition is TRUE
+
+for (let rep = 1; rep <= 10; rep++) {
+  console.log(`lifting weights repetition ${rep}🏋️`);
+}
+*/
