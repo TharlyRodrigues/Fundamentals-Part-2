@@ -236,7 +236,7 @@ console.log(jonas);
 
 console.log(
   `${jonas.firstName} has ${jonas.friends.length}, and his best friend is called ${jonas.friends[0]}`
-);*/
+);
 
 // objector
 const jonas = {
@@ -276,4 +276,4 @@ console.log(jonas.age);
 
 //challenge
 // jonas is a 46-year old teacher, and he has a driver's license
-console.log(jonas.getSummary());
+console.log(jonas.getSummary());*/
