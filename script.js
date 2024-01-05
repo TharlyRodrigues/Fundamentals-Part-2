@@ -329,7 +329,7 @@ for (let i = 0; i < jonas.length; i++) {
   if (typeof jonas[i] === "number") break;
 
   console.log(jonas[i], typeof jonas[i]);
-}*/
+}
 
 const jonas = [
   "jonas",
@@ -351,3 +351,23 @@ for (let exercise = 1; exercise < 4; exercise++) {
     console.log(`exercise ${exercise}: lifting wight repetition ${rep} 🏋️‍♂️`);
   }
 }
+
+for (let rep = 1; rep < 6; rep++) {
+  console.log(`lifting wight repetition ${rep} 🏋️‍♂️`);
+}
+
+let rep = 1;
+while (rep <= 10) {
+  console.log(`WHILE: lifting wight repetition ${rep} 🏋️‍♂️`);
+  rep++;
+}
+
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+
+while (dice !== 6) {
+  console.log(`you rolled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if (dice == 6) console.log("loop is about to end...");
+}
+*/
